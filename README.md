@@ -14,14 +14,6 @@ React + Vite, FastAPI, scikit-learn Random Forest, SQLite, Solidity + Hardhat.
 ### Blockchain Verification
 ![Blockchain Verification](docs/images/blockchain-verification.png)
 
-## System Architecture
-
-![System Architecture](docs/images/Architecture.png)
-
-## Project Workflow
-
-![ Project Workflow](docs/images/Workflow.png)
-
 
 ## Run backend
 Python 3.10+ recommended.
