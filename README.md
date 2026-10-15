@@ -16,38 +16,11 @@ React + Vite, FastAPI, scikit-learn Random Forest, SQLite, Solidity + Hardhat.
 
 ## System Architecture
 
-flowchart TD
-    A[User] --> B[React Frontend]
-    B --> C[FastAPI Backend]
-    C --> D[Input Validation]
-    D --> E[Trained ML Model]
-    E --> F[Sybil Probability]
-    F --> G[Trust Score and Risk Category]
-    G --> H[(SQLite Database)]
-    G --> I[Solidity Smart Contract]
-    I --> J[Local Hardhat Blockchain]
-    J --> K[Blockchain Verification]
-    K --> B
-    H --> B
-
+![System Architecture](docs/images/Architecture.png)
 
 ## Project Workflow
 
-flowchart TD
-    A([Start]) --> B[Enter Account Features]
-    B --> C[Validate Input]
-    C --> D[ML Model Predicts Sybil Probability]
-    D --> E[Calculate Trust Score]
-    E --> F[Assign Risk Category]
-    F --> G[Save Analysis to SQLite]
-    G --> H{Blockchain Enabled?}
-    H -- Yes --> I[Submit Score to Smart Contract]
-    I --> J[Store Transaction Status]
-    H -- No --> K[Mark Blockchain as Demo Only]
-    J --> L[Display Results]
-    K --> L
-    L --> M[Verify On-Chain Record]
-    M --> N([End])
+![ Project Workflow](docs/images/Workflow.png)
 
 
 ## Run backend
