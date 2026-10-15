@@ -1,0 +1,1 @@
+const hre=require("hardhat");async function main(){const F=await hre.ethers.getContractFactory("SybilTrustRegistry");const c=await F.deploy();await c.waitForDeployment();console.log("SybilTrustRegistry:",await c.getAddress());console.log("Copy address into backend/.env as CONTRACT_ADDRESS.");}main().catch(e=>{console.error(e);process.exitCode=1});

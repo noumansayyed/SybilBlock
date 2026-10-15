@@ -1,0 +1,34 @@
+# Secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+
+# Local database and private data
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.envvenv/
+
+# Node
+node_modules/
+dist/
+
+# Local and generated files
+.DS_Store
+Thumbs.db
+*.log
+coverage/
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx

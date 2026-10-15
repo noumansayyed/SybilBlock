@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Admin\\Documents\\GitProjects\\SybilBlock-local-prototype\\SybilBlock\\blockchain\\contracts\\SybilTrustRegistry.sol": {
+      "lastModificationDate": 1792055611066,
+      "contentHash": "a11622e1352508a24e995e81209cc605",
+      "sourceName": "contracts/SybilTrustRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "SybilTrustRegistry"
+      ]
+    }
+  }
+}
